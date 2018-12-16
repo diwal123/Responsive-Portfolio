@@ -219,78 +219,69 @@ input[type=submit] {
 
 
 
+@media screen and (max-width: 980px){
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-  @media screen and (max-width: 768px) {
-    header {
-      width: 100%;
-      position: relative;
-    }
-    
-    body {
-      color: #4aaaa5;
-    }
-
-    nav {
-      float: none;
-      padding: 0 0 0 0;
-      margin: 0 0 0 0 0; 
-    }
-
-    nav a {
-      padding-left: 80px;
-      padding-top: 30px;
-    
+#masthead {
+  position: static;
 }
-  
+
+nav {
+
+  margin: 0;
+  width: 70%;
+  padding-left: 350px;
+  padding-top: 15px;
+
+}
+
+#logo {
+  width: 30%;
+  height: 70px;
+  line-height: 70px;
+}
+
+#main-container{
+  padding-top: 0;
+}
+
+
+@media screen and (max-width: 768px){
+  nav {
+    padding: 0;
+    padding-left: 200px;
+    padding-top: 15px;
+  }
+
+  .main-section h1 {
+    margin: 0;
+  }
+}
 
 @media screen and (max-width: 640px) {
-  header a {
-  
-      cursor: pointer;
-      margin: 0 0 0 0;
-      padding: 10px;
-      align-items: center;
+ nav {
+   width: 100%;
+   padding-top: 5px;
+   padding-left: 150px;
+ }
 
-    }
-  #logo {
-    width: 100%;
-    height: auto;
-  }
-  
-  header {
-    position: relative;
-    width: 100%;
-  }
-  
-  
-  nav {
-    padding-right: 200px;
-  
-  }
-  
-  
-  .work{
-    width: 100%;
-    position: relative;
-    height: auto;
-  }
-  
-  body {
-    color: red;
-  }
+#logo {
+  width: 100%;
+  line-height: 60px;
+
+}
+
+
+.work {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+
+}
+
+.work img {
+  height: 175px;
+}
   
 }
+
+/* Final */
